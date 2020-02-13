@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "WickedGrit";
+  src: url("../fonts/WickedGrit.woff") format("woff"), /* Modern Browsers */
+  url("../fonts/WickedGrit.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SchmaleAnzeigenschrift";
+  src: url('../fonts/SchmaleAnzeigenschrift.woff') format('woff'),
+  url('../fonts/SchmaleAnzeigenschrift.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "SchmaleGotischMK";
+  src: url('../fonts/SchmaleGotischMK.woff') format('woff'),
+  url('../fonts/SchmaleGotischMK.woff2') format('woff2'),
+  url('../fonts/SchmaleGotischMK.ttf') format('truetype');
+}
+
+body {
+  font-family: 'WickedGrit', sans-serif;
+}
+
+@import 'navigation';
+@import 'header';
+@import 'onepager';
+@import 'main-content';
+@import 'footer';

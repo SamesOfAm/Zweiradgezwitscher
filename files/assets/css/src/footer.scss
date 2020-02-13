@@ -1,0 +1,52 @@
+@import 'variables';
+
+#footer {
+  height: 800px;
+  margin-top: 100px;
+  background-color: $primary-color;
+  color: white;
+  font-size: 30px;
+}
+
+#footer-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.footer-claim {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+
+.footer-address {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer-urls {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  a {
+    color: white;
+    text-decoration: none;
+    transition: all 350ms;
+    &:visited {
+      color: white;
+      text-decoration: none;
+    }
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+@media screen and (max-width: 998px) {
+  #footer {
+    p {
+      font-size: 18px;
+    }
+  }
+}

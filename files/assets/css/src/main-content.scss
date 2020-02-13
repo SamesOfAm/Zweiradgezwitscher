@@ -1,0 +1,153 @@
+@import 'variables';
+
+.mod_article {
+  margin-top: 120px;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+#main #short-info {
+  width:90%;
+  max-width:1400px;
+  font-size:35px;
+  color:#e4007b;
+  text-align: center;
+}
+
+.ce_text li {
+  position: relative;
+  &:before {
+    content: '\2022 ';
+    color: #ec008c;
+    font-size: 34px;
+    position: absolute;
+    left: -20px;
+    top: -4px;
+  }
+}
+
+.ce_image img {
+  width: 100%;
+  height: auto;
+}
+
+#teaser-text-bg {
+  background-color:#cbdc8e;
+  padding:100px;
+}
+
+#main #teaser-text {
+  width:100%;
+  max-width:1400px;
+  background-color:#cbdc8e;
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.partner-wrapper {
+  width: 100%;
+}
+
+.partner-logo-group {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.partner-logo-headline {
+  width:80%;
+  margin:0 auto;
+  text-align:center;
+}
+
+.partner-logo {
+  width: 22.5%;
+  margin: 1%;
+  height: auto;
+  min-width: 180px;
+  max-width: 280px;
+  img {
+    width: 100%;
+  }
+}
+
+#teaser-mobile,#teaser-smartphone {
+  display: none;
+}
+
+.caroufredsel_gallery {
+  width: 100%;
+  img {
+    width: 80vw;
+    height: auto;
+    box-shadow: 0 0 10px #999;
+    border: 10px solid #fff;
+    display: block;
+    margin: 10px 9vw;
+    float: left;
+  }
+}
+
+.imprint #main {
+  font-size: 13px;
+  p {
+    font-family: 'Open Sans', sans-serif;
+  }
+  .ce_text a {
+    padding-left: 0;
+    padding-right: 0;
+    color: black;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+@media screen and (max-width: 1000px){
+  #teaser-mobile {
+    display: block;
+  }
+
+  #teaser-desktop {
+    display: none;
+  }
+
+  .mod_article {
+    margin-top: 45px;
+  }
+
+  #programm {
+    font-size: 20px;
+  }
+
+  #main .ce_text {
+    font-size: 18px;
+  }
+
+  .ce_text li:before {
+    left:-17px;
+    top:-9px;
+  }
+
+  #teaser-text-bg {
+    padding: 40px;
+  }
+
+  #main #teaser-text {
+    font-size: 16px;
+    h2 {
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #teaser-smartphone {
+    display: block;
+  }
+  #teaser-mobile {
+    display: none;
+  }
+}

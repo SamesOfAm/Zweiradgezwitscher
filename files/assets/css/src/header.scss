@@ -1,0 +1,57 @@
+@import 'variables';
+
+#header {
+  background-color: $primary-color !important;
+}
+
+.mobile_menu_trigger {
+  position:absolute;
+  right:40px;
+  top:40px;
+  color:white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.mobile_menu .inner {
+  background-color: white;
+  overflow: hidden;
+  a {
+    color: black;
+    text-decoration: none;
+    transition: all 350ms;
+    &:hover {
+      color: $primary-color;
+    }
+    &:visited {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+.menu-item {
+  padding: 20px;
+  background-color: white;
+  transition: all 100ms;
+  border-top: 1px solid $primary-color;
+  &:hover {
+    background-color: $primary-color;
+    color: white;
+  }
+}
+
+.menu-list {
+  margin-top:170px;
+  margin-left:100px;
+  font-size:24px;
+  a:first-child > div {
+    border-top: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .menu-list {
+    margin-left: 30px;
+  }
+}

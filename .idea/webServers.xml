@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="18f155f8-27f2-4d61-aa10-55db03ca136b" name="Zweiradgezwitscher" url="http://ftp.zweiradgezwitscher.de">
+        <fileTransfer host="ftp.zweiradgezwitscher.de" port="21" rootFolder="/contao44">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
