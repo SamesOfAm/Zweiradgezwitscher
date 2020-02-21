@@ -11,7 +11,7 @@
   width:90%;
   max-width:1400px;
   font-size:35px;
-  color:#e4007b;
+  color:$primary-color;
   text-align: center;
 }
 
@@ -19,7 +19,7 @@
   position: relative;
   &:before {
     content: '\2022 ';
-    color: #ec008c;
+    color: $primary-color;
     font-size: 34px;
     position: absolute;
     left: -20px;
